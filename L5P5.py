@@ -14,10 +14,10 @@ def gcdRecur(a, b):
 
 class TestGdcRecur(unittest.TestCase):
 
-    def test_with_two_and_twoelve(self):
+    def test_with_two_and_twelve(self):
         self.assertEqual(gcdRecur(2,12), 2)
 
-    def test_with_six_and_twoelve(self):
+    def test_with_six_and_twelve(self):
         self.assertEqual(gcdRecur(6,12), 6)
 
 if __name__ == '__main__':
